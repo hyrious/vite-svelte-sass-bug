@@ -1,14 +1,9 @@
 {
+  "private": true,
   "name": "test-vite-svelte",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
     "sass": "^1.44.0",
