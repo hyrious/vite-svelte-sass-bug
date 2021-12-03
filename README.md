@@ -10,6 +10,8 @@ $ code .
 # then navigate to App.svelte to see the error on <style> tag
 ```
 
+<img width="443" alt="Snipaste_2021-12-03_14-23-39" src="https://user-images.githubusercontent.com/8097890/144555570-c9c98a06-784f-42ac-b3ce-7c80d6d6d362.png">
+
 I've tried adding `/usr/local/bin/node` to `svelte.language-server.runtime` in
 VS Code User Settings, but it didn't work.
 
