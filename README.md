@@ -1,5 +1,9 @@
 ## seemingly a bug in [Svelte for VS Code][1] extension
 
+### Solution (?)
+
+Install `svelte-preprocess` package.
+
 ### Setup
 
 ```bash
