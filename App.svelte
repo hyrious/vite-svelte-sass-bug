@@ -1,5 +1,9 @@
-<h1 class="container is-red">
-  hello, world!
+<script lang="ts">
+  export let color = "is-red";
+</script>
+
+<h1 class="container {color}">
+  Hello, world!
 </h1>
 
 <style lang="scss">
