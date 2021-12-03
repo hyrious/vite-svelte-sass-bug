@@ -1,5 +1,18 @@
 ## seemingly a bug in [Svelte for VS Code][1] extension
 
+### ESLint error
+
+Turn on `"eslint.validate": ["svelte"]` in VSCode settings.
+
+It seems the svelte extension will still use CSS language to validate a
+`<style>` block, which causes errors.
+
+I found it: https://github.com/sveltejs/eslint-plugin-svelte3/issues/10
+
+### Solution to not found sass error
+
+Install `svelte-preprocess` package. See the `solution` branch.
+
 ### Setup
 
 ```bash
